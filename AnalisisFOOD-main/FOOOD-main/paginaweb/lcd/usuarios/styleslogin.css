@@ -1,0 +1,107 @@
+body {
+    background-image: url('img/logoo.png');
+    background-position:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    opacity: 1;
+  }
+  #login .card-header h4 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  #login .card-body {
+    height: 300px;
+    max-height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #login .card {
+    width: 600px;
+    background-color: rgba(76, 18, 83, 0.445);
+    color: rgba(245, 242, 242, 0.934);
+    margin-left:initial;
+    color: black;
+    font-weight: bold;
+  }
+
+  
+  #login .form-group label {
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+  }
+  #login .form-group {
+    text-align: center;
+  }
+  #login .card-body input[type="nombre"],
+  #login .card-body input[type="email"],
+  #login .card-body input[type="password"]{
+    background-color:rgba(128, 128, 128, 0.674);
+  }
+  
+  #login .card-body .btn-primary {
+    color: white;
+    font-weight: bold;
+  }
+  #login .card-header {
+    background-color: rgb(87, 50, 87);
+    color: white;
+    font-weight: bold;
+  }
+  
+  #login h4 {
+    font-size: 24px;
+  }
+  
+  #login .btn-primary {
+    background-color: rgb(156, 110, 156);
+    border-color: rgb(15, 13, 15);
+  }
+  
+  #login .btn-primary:hover {
+    background-color: #7c00e6;
+    border-color: #7c00e6;
+  }
+  
+
+  .logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .btn-purple {
+    background-color: rgb(129, 59, 129);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-purple:hover {
+    background-color: #660066;
+  }
+ 

@@ -1,0 +1,265 @@
+
+body {
+  background-image: url('https://img.freepik.com/vector-premium/fondo-textura-elegante-blanco_745217-607.jpg?w=2000');
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6c5b7b;
+  font-weight: bold;
+  color: #f5e5d9;
+  text-align: center;
+}
+
+nav ul li a {
+  color: #f5e5d9;
+}
+
+#orders button, #products button {
+  background-color: #6c5b7b;
+  color: #f5e5d9;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#orders button:hover, #products button:hover {
+  background-color: #733d81;
+  color: #6c5b7b;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #beb5c068;
+  color: #6c5b7b;
+}
+
+#add-product {
+  background-color:mediumpurple;
+  color: #6c5b7b;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#add-product:hover {
+  background-color: #6c5b7b;
+  color: #f5e5d9;
+}
+
+
+
+
+      header {
+        background-color: #6c5b7b;
+        color: #f5e5d9;
+        text-align: center;
+      }
+
+      nav ul li a {
+        color: #f5e5d9;
+      }
+
+      #orders button, #products button {
+        background-color: #6c5b7b;
+        color: #f5e5d9;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+
+      #orders button:hover, #products button:hover {
+        background-color: #733d81;
+        color: #6c5b7b;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+
+      th {
+        background-color: #cacb7fde;
+        color: #0a0a0a;
+      }
+
+      #add-product {
+        background-color:mediumpurple;
+        color: #6c5b7b;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+
+      #add-product:hover {
+        background-color: #6c5b7b;
+        color: #f7d7bf;
+      }
+
+      /* Estilos para el formulario de agregar producto */
+      form {
+        background-color: #6c5b7b;
+        color: #f9f3ef;
+        border-radius: 20px;
+        padding: 20px;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      input[type=submit] {
+        background-color: #ecd27f;
+        color: rgba(10, 1, 8, 0.744);
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      input[type=submit]:hover {
+        background-color: #8917a5;
+        color:#d7ba5c;
+      }
+
+      .ventana-emergente {
+        display: none;
+        position: fixed;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        background-color: rgb(232, 215, 243);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border: 2px solid black;
+      }
+      
+      
+      .ventana-emergente .contenido {
+        position: relative;
+      }
+      
+      .ventana-emergente h3 {
+        margin-top: 0;
+      }
+      
+      .ventana-emergente p {
+        margin-bottom: 10px;
+      }
+      
+      .ventana-emergente button {
+        position: absolute;
+        bottom: 60px;
+        right: -27px;
+        background-color: rgb(204, 119, 136);
+        color: white;
+        font-weight: bold;
+      }
+      
+      #product-list td {
+        font-weight: bold;
+      }
+
+      #orders td{
+        font-weight: bold;       
+      }
+      
+      
+      .actions button {
+        margin-right: 5px;
+      }
+  
+      /* Estilo para el botón "Agregar" */
+      #nuevo-producto button {
+        background-color: rgba(128, 0, 128, 0.7);
+        color: white;
+        font-weight: bold;
+        font-size: 18px; /* Tamaño de fuente más grande */
+        padding: 10px 20px; /* Ajustar el relleno para un tamaño más grande */
+      }
+      #nuevo-producto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        height: 100px; /* Ajusta la altura según tus necesidades */
+      }
+      
+      
+      #products h2,
+#products-table th h5 {
+  font-weight: bold;
+}
+
+#orders h2,
+#orders th h5 {
+  font-weight: bold;
+}
+
+.center-button {
+  display: block;
+  margin: 0 auto;
+}
+
+.borrar-button {
+  background-color: rgba(128, 0, 128, 0.616);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.borrar-button:hover {
+  background-color: rgba(128, 0, 128, 0.9);
+}
+

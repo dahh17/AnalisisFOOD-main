@@ -1,0 +1,60 @@
+body {
+    background-image: url('img/logoo.png');
+    background-position:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    opacity: 1;
+}
+#registro .card {
+    width: 600px;
+    background-color: rgba(76, 18, 83, 0.445);
+    color: rgba(245, 242, 242, 0.934);
+    margin-left: initial;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #registro .form-group label {
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+  }
+  
+  #registro .form-group {
+    text-align: center;
+  }
+  
+  #registro .card-body input[type="correo"],
+  #registro .card-body input[type="contraseña"] {
+    background-color: rgba(128, 128, 128, 0.674);
+  }
+  
+  #registro .card-body .btn-primary {
+    color: white;
+    font-weight: bold;
+  }
+  
+  #registro .card-header {
+    background-color: rgb(87, 50, 87);
+    color: white;
+    font-weight: bold;
+  }
+  
+  #registro h4 {
+    font-size: 24px;
+  }
+  
+  #registro .btn-primary {
+    background-color: rgb(156, 110, 156);
+    border-color: rgb(15, 13, 15);
+  }
+  
+  #registro .btn-primary:hover {
+    background-color: #7c00e6;
+    border-color: #7c00e6;
+  }
+  
+  

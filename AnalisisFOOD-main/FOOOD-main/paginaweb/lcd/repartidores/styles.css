@@ -1,0 +1,151 @@
+body {
+  background-image: url('https://img.freepik.com/vector-premium/fondo-textura-elegante-blanco_745217-607.jpg?w=2000');
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color:rgb(87, 7, 87);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile-image img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.details {
+  margin-left: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+
+.domicilios-pendientes,
+.recibir-pedidos {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-receive {
+  background-color: #008000;
+  color: #fefcff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-receive:hover {
+  background-color: #006400;
+}
+
+.domicilios-pendientes {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.domicilios-pendientes h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.empty-state {
+  text-align: center;
+}
+
+.empty-state img {
+  width: 500px; /* Ajusta el ancho deseado */
+  height: auto; /* Permite que la altura se ajuste proporcionalmente */
+  margin-bottom: 10px;
+}
+
+
+.empty-state p {
+  color: #777;
+}
+.centered {
+  background-color: #49266821;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.domicilios-pendientes {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.domicilio-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.domicilio-item:hover {
+  background-color: #e0e0e0;
+}
+
+.domicilio-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.domicilio-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+
+.btn-pedido {
+  background-color: rgb(106, 23, 106);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.informacion-pedido {
+  color: black;
+  font-weight: normal;
+  font-size: 16px;
+}
+.btn-pedido:hover {
+  background-color: darkpurple;
+}
+

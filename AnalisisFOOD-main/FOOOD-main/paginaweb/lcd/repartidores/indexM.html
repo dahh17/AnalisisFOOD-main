@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Información Personal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenida</h1>
+  </header>
+  <section class="personal-info">
+    <div class="profile-image">
+      <img src="https://png.pngtree.com/png-clipart/20201224/ourlarge/pngtree-cute-cartoon-girl-with-long-hair-resting-on-cheek-png-image_2624080.jpg" alt="Profile Image">
+    </div>
+    <div class="details">
+      <h2>Maria López</h2>
+      <p><strong>Teléfono:</strong> +1234567890</p>
+      <p><strong>Correo Electrónico:</strong> info@example.com</p>
+      <p><strong>Dirección:</strong> Calle Principal 123, Ciudad</p>
+      <p><strong>Tiempo en la Empresa:</strong> 3 años</p>
+    </div>
+  </section>
+  <section class="domicilios-pendientes">
+    <h2 class="centered">Domicilios Pendientes</h2>
+    <div class="empty-state">
+      <img src="https://www.shutterstock.com/image-photo/various-homemade-dishes-collage-menu-260nw-1724092549.jpg" alt="Empty State Image">
+      <p>No hay domicilios pendientes en este momento.</p>
+    </div>
+    <section class="recibir-pedidos centered">
+      <h2>Recibir Pedidos</h2>
+      <p>Haga clic en el botón para recibir nuevos pedidos:</p>
+      <button class="btn-receive" onclick="receiveOrders()">Recibir Pedidos</button>
+      <div id="pedidos-recibidos">
+        <button class="btn-pedido" onclick="mostrarInformacionPedido(1)">Pedido 1</button>
+        <button class="btn-pedido" onclick="mostrarInformacionPedido(2)">Pedido 2</button>
+        <button class="btn-pedido" onclick="mostrarInformacionPedido(3)">Pedido 3</button>
+      </div>
+      <div id="informacion-pedido-container"></div>
+    </section>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

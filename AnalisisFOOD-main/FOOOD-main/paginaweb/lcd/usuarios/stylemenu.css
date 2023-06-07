@@ -1,0 +1,170 @@
+body {
+
+    background-image: url("https://img.freepik.com/vector-premium/fondo-textura-elegante-blanco_745217-607.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px;
+}
+.menu-title {
+	text-align: center;
+	padding: 20px;
+	color: #8e20a4;
+	margin: 0;
+}
+
+.menu-section {
+	flex-basis: 30%;
+	margin-bottom: 30px;
+}
+
+.menu-section h2 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.menu-item {
+	background-color: #f5f5f5;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.menu-item p {
+	margin: 0;
+}
+
+button {
+	margin: 20px auto;
+	display: block;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+#tasks {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Crea tres columnas del mismo tamaño */
+	gap: 20px; /* Espacio entre las tarjetas */
+	width: 100%; /* Ajusta el ancho según tus necesidades */
+	padding: 20px; /* Agrega un espacio interno al contenedor */
+  }
+  
+  .area-tarjeta {
+	background-color: #f5f5f5;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto-nombre {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  .producto-precio {
+	font-size: 12px;
+	color: #888;
+  }
+  
+
+
+  .nombre {
+	text-align: center;
+	font-weight: bold;
+  }
+  
+  .precio {
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.2em;
+  }
+  
+  
+  .descripcion {
+	font-size: 1.2em;
+  }
+  
+  .imagen{
+    max-width:100%;
+}
+
+a{
+    cursor:pointer;
+}
+.alerta{
+    font-weight:700;
+}
+body{
+    background-color: #E3D8D6;
+    overflow-x: hidden;
+}
+.modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+}
+.img-carrito{
+    width:200px;
+    padding:20px;
+} 
+.modal-content{
+    background-color: #E3D8D6;
+}
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
+#precioTotal{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+.boton{
+    opacity:0;
+}
+
+.imagen-container {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+  }
+  
+  .imagen-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
